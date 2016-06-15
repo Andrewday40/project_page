@@ -1,7 +1,8 @@
 var express = require('express');
 var server = express();
 
-
+server.use(express.static(__dirname+'/public'));
+// Command to add the location for pictures in the server. 
 server.get('/', function(request, response){
   response.sendFile('public/html/index.html', {root: __dirname});
 });
