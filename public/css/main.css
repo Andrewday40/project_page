@@ -1,4 +1,28 @@
 html {
   background-color: #63A375;
+  font-family: Times New Roman;
+}
 
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#navigation {
+  width: 100%;
+  height: 100px;
+  background-color: #c94c4c;
+  padding-top: 30px;
+}
+
+#navigation li {
+  list-style: none;
+  display: inline;
+  margin-right: 390px;
+}
+
+#navigation li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
