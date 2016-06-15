@@ -26,3 +26,18 @@ body {
   color: black;
   font-size: 20px;
 }
+
+#header {
+  text-align: center;
+}
+#wrap {
+  width: 750px; margin: 0 auto;
+}
+
+#main {
+  float: left; width: 500px;
+}
+
+#sidebar {
+  float: right; width: 250px;
+}
