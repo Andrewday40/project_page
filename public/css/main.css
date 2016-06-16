@@ -41,3 +41,15 @@ body {
 #sidebar {
   float: right; width: 250px;
 }
+
+#projectwrap {
+  width: 500px; margin: 0 auto;
+}
+
+#project1 {
+  float: left; width: 250px; background-color: #cccccc;
+}
+
+#project2 {
+  float: right; width: 250px; background-color: gray;
+}
